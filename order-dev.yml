@@ -22,3 +22,6 @@ PRODUCT:
 
 server:
   port: 7080
+  
+env:
+  dev
