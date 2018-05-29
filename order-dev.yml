@@ -10,7 +10,7 @@ spring:
       show-sql: true
 
 
-#访问应用的名字，修改 均衡器规则，IRule接口
+#访问应用的名字，修改 均衡器规则，IRule接口1
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
