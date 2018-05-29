@@ -20,3 +20,6 @@ server:
   
 env:
   dev212222
+girl:
+  name:lili
+  age:18
