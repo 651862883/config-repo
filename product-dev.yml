@@ -13,3 +13,11 @@ spring:
       port: 5672
       username: guest
       password: guest
+
+
+
+server:
+  port: 7081
+  
+env:
+  dev55521111111
