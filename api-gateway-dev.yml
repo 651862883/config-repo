@@ -13,5 +13,5 @@ zuul:
 
   #不允许外部访问的接口地址
   ignored-patterns:
-    - /myProduct/product/list
-    - /**/product/list  #通配符写法
+    - /myProduct/product1/list
+    - /**/product1/list  #通配符写法
