@@ -2,11 +2,13 @@ spring:
   application:
     name: api-gateway
 zuul:
+  #全部服务忽略敏感头（全部服务都可传递cookie）
+  sensitive-headers:  
   routes:
     aaaa:    #myProduct自定义路由名称
       path: /myProduct/**  #转发源地址
       serviceId: product   #转发目的地址
-      sensitiveHeaders: -       #设置空，不过滤其他东西cookie
+      sensitiveHeaders:     #设置空，不过滤其他东西cookie
     #简洁写法  项目名称：转发地址
     #product: /myProduct/**
 
