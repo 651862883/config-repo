@@ -2,9 +2,9 @@ spring:
   application:
     name: api-gateway
   redis:
-    host: 116.62.163.66
-    port: 5800
-    password: c13h4@Liu
+    host: 192.168.0.17
+    port: 6379
+    password: 123456
   
 zuul:
   #全部服务忽略敏感头（全部服务都可传递cookie）
